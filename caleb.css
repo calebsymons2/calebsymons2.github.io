@@ -65,7 +65,6 @@ a {
   margin-left:20%;
   background:#fff;
   z-index:9;
-  padding-bottom:7em;
   font-size:1.1em;
 }
 #prof {
@@ -110,7 +109,7 @@ h1 {
 
 #contact {
   width:45%;
-  margin-top:12.5%;
+  margin-top:10%;
   margin-right:10%;
   margin-left:20%;
   background:#fff;
@@ -123,7 +122,7 @@ h1 {
 }
 
 #twitter {
-  right:20%;
+  right:15%;
   position:fixed;
   top:26%;
 }
@@ -167,16 +166,24 @@ h1 {
 
 #topbar {
   background-image: url("IMG_6392.jpeg");
-  width: 100%;
+  width: 105%;
   height: 15em;
   top:0%;
   display:block;
   background-repeat:no-repeat;
   background-size:cover;
-  margin-left:-4px;
+  margin-left:-1%;
   margin-top:-10px;
 }
 
 .title {
   margin-top:20em;
+}
+
+.fixed_header {
+  position:fixed;
+}
+
+.fixed_sidebar {
+  position:fixed;
 }
