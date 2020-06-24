@@ -43,15 +43,14 @@ a {
   margin-left:-15px;
 }
 
-.name {
-  position:fixed;
-  left:5%;
-  top:17em;
-  z-index:9;
+#caleb {
+  /* position:fixed; */
+  margin-left:5%;
+  margin-top:1em;
   background:#fff;
 }
 
-.name a {
+#caleb a {
   font-size:4em;
   font-family:'Cormorant Garamond', serif;
   color:#000000;
@@ -60,7 +59,7 @@ a {
 
 #text {
   width:45%;
-  margin-top:10%;
+  margin-top:3.5%;
   margin-right:10%;
   margin-left:20%;
   background:#fff;
@@ -71,7 +70,7 @@ a {
   width:15%;
   float:right;
   margin-right:13%;
-  margin-top:10%;
+  margin-top:3.5%;
 }
 
 #text i {
@@ -93,7 +92,7 @@ h1 {
 }
 #exp_text {
   width:55%;
-  margin-top:12.5%;
+  margin-top:3%;
   margin-right:10%;
   margin-left:20%;
   background:#fff;
@@ -109,12 +108,13 @@ h1 {
 
 #contact {
   width:45%;
-  margin-top:10%;
+  margin-top:10.5%;
   margin-right:10%;
   margin-left:20%;
   background:#fff;
   z-index:9;
   padding-bottom:7em;
+  font-size:1.1em;
 }
 
 #contact a {
@@ -122,36 +122,38 @@ h1 {
 }
 
 #twitter {
-  right:15%;
-  position:fixed;
-  top:26%;
+
 }
 
 .portfolio {
   width:85%;
   margin-top:14%;
-  margin-right:10%;
   margin-left:15%;
   padding-bottom:1em;
 }
 
 .block2 {
-  margin-top:16%;
+  margin-top:2em;
   margin-bottom:5em;
+  width: 80%;
 }
 
 .portfolio h1 {
   display:block;
-  width:100%;
   margin-left:3%;
 }
 
 .elem {
   margin-top:1.5em;
   width:40%;
-  float:left;
   margin-bottom:2em;
   margin-left:3%;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  box-sizing: border-box;
+  flex: 1;
+
 }
 
 .headline {
@@ -182,8 +184,22 @@ h1 {
 
 .fixed_header {
   position:fixed;
+  padding-top: 1em;
+  width:100%;
+  top:-1em;
 }
 
 .fixed_sidebar {
   position:fixed;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+body {
+  overflow-x:hidden;
 }
