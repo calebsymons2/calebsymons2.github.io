@@ -3,15 +3,34 @@ body {
   color:#333333;
 }
 #sidebar {
-  position:fixed;
+  position:absolute;
   left:0;
+  margin-left:1em;
   padding: 5%;
   text-align:left;
   top:18em;
 }
+
+.fixed_sidebar {
+  position:fixed!important;
+  top: 2em!important;
+}
+
+.fixed_bod {
+  padding-top: 3.8em;
+}
+
+/* #bod .fixed_bod {
+  padding-top: 10em;
+} */
+
 a {
   color:inherit;
   text-decoration:none;
+}
+
+.main {
+  position:fixed;
 }
 
 #sidebar a {
@@ -105,11 +124,13 @@ h1 {
 #exp_text h2 {
   font-size:1.2em;
 }
-
+#bin {
+  display: flex;
+  padding-bottom: 2.5em;
+}
 #contact {
   width:45%;
-  margin-top:10.5%;
-  margin-right:10%;
+  margin-top:3.5%;
   margin-left:20%;
   background:#fff;
   z-index:9;
@@ -122,12 +143,15 @@ h1 {
 }
 
 #twitter {
-
+  margin-right:10%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3.5%;
 }
 
 .portfolio {
   width:85%;
-  margin-top:14%;
+  margin-top:3.5%;
   margin-left:15%;
   padding-bottom:1em;
 }
@@ -187,10 +211,6 @@ h1 {
   padding-top: 1em;
   width:100%;
   top:-1em;
-}
-
-.fixed_sidebar {
-  position:fixed;
 }
 
 .row {
